@@ -34,7 +34,9 @@
           <td>All in One</td>
           <td>1900</td>
           <th>
-            <button class="btn btn-link"><i class="fa fa-file-o"></i></button>
+            <router-link to="/detail/1"
+              ><i class="fa fa-file-o"></i
+            ></router-link>
           </th>
         </tr>
         <tr>
@@ -44,7 +46,9 @@
           <td>Ultrabook</td>
           <td>700</td>
           <th>
-            <button class="btn btn-link"><i class="fa fa-file-o"></i></button>
+            <router-link to="/detail/2"
+              ><i class="fa fa-file-o"></i
+            ></router-link>
           </th>
         </tr>
       </tbody>
@@ -53,11 +57,11 @@
 </template>
 
 <script>
-//import devicelist from "./pages/devicelist.vue";
+//import AddDevice from "@/components/AddDevice";
 export default {
   name: "DeviceLists",
   components: {
-    //   AddDevice,
+    //  AddDevice,
   },
 };
 </script>
